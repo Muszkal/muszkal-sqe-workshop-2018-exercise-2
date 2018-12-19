@@ -130,9 +130,7 @@ function fixInputVector(input){
 function addNodes(vec, nodes){
     var ans = vec;
     for(var x in nodes){
-        //if(nodes[x].line < line){
         ans[nodes[x].name]= nodes[x].val;
-        //}
     }
     return ans;
 }
